@@ -1,6 +1,11 @@
 
 body{
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: aliceblue;
+    font-family: 'Bitter', serif;
+    background-color: #DFF3F9;
+    font-size: 14px;
 }
-/* You can add global styles to this file, and also import other style files */
+@media (max-width: 768px) {
+    body{
+        font-size: 13px;
+    }
+}

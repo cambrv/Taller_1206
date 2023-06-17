@@ -1,0 +1,18 @@
+.card{
+    display: inline-flex;
+    width: 100%;
+    background-color: #f5fdff;
+}
+.col{
+    padding: 2%;
+}
+.card:hover{
+    width: calc(100% + 1rem);
+    transition: all 0.5s ;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-style: italic;
+}
